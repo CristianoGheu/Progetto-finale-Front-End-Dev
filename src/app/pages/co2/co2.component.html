@@ -1,0 +1,29 @@
+<div class="header-section">
+    <h1>CO2</h1>
+    <p class="subtitle">Atmospheric carbon dioxide concentration</p>
+</div>
+<div class="graph-container" *ngIf="!errorMessage">
+    <canvas baseChart
+        [type]=" 'line' "
+        [datasets]="dataSet"
+        [labels]="labels"
+        [options]="chartOptions"
+    ></canvas>
+</div>
+
+<div class="error-message" *ngIf="errorMessage">
+    <p>{{ errorMessage.message }}</p>
+</div>
+
+<div class="text-container">
+    <p>CO₂ is the most abundant greenhouse gas in the atmosphere. It is responsible for 76% of the greenhouse effect.</p>
+
+    <p>For thousands of years, the natural concentration of CO2 in earth atmosphere was around 280 ppm.</p>
+    
+    <p class="highlight">From the beginning of the industrial revolution, human activities like the burning of fossil fuels, deforestation, and livestock have increased this amount by more than 30%.</p>
+
+    <p>The current level is around 420 ppm (parts per million).</p>
+
+    <p>For more detailed information please visit <a target="_blank" href="https://global-warming.org/">Global Warming website</a></p>
+</div>
+

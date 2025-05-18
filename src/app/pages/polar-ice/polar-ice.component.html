@@ -1,0 +1,26 @@
+<div class="header-section">
+<h1>Polar Ice</h1>
+<p class="subtitle">Arctic ice loss visualization</p>
+</div>
+<div class="graph-container" *ngIf="!errorMessage">
+    <canvas baseChart
+        [type]="'line'"
+        [datasets]="dataSet"
+        [labels]="labels"
+        [options]="chartOptions">
+    </canvas>
+</div>
+
+<div class="error-message" *ngIf="errorMessage">
+    <p>{{ errorMessage.message }}</p>
+</div>
+
+<div class="text-container">
+    <p>The arctic is warming around twice as fast as global average. Some of the reasons for this are: The arctic amplification, the albedo effect, and black carbon.</p> 
+
+    <p class="highlight">From 1979 to 1996, we lost 2.2 – 3% of the arctic ice cover. From 2010 to present we are losing 12.85% per decade!</p>
+
+    <p>Another consequence is permafrost thawing. This is a process in which large amounts of methane is released to the atmosphere, fueling more the process of global warming.</p> 
+    
+    <p>For more detailed information please visit <a href="https://global-warming.org/">Global Warming website</a></p>
+</div>
