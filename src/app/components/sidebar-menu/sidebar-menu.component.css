@@ -1,0 +1,36 @@
+
+.menu-icon {
+    width: 24px;
+    height: 24px; 
+    margin-right: 8px; 
+    vertical-align: middle;
+}
+
+.page-list {
+    display: flex; 
+    flex-direction: column;
+    text-decoration: none; 
+    color: inherit; 
+    padding: 8px 16px; 
+    border-radius: 4px; 
+    margin: 4px 0; 
+    transition: background-color 0.3s; 
+}
+
+mat-nav-list a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+mat-nav-list a {
+    margin-top: 15px;
+}
+
+h2 {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .page-list {
+    padding-top: 64px;
+  }
+}

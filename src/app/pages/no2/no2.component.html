@@ -1,0 +1,24 @@
+<div class="header-section">
+    <h1>No2</h1>
+    <p class="subtitle">Nitrous oxide impact on global warming</p>
+</div>
+<div class="graph-container" *ngIf="!errorMessage">
+    <canvas baseChart
+        [type]=" 'line' "
+        [datasets]="dataSet"
+        [labels]="labels"
+        [options]="chartOptions"
+    ></canvas>
+</div>
+
+<div class="error-message" *ngIf="errorMessage">
+    <p>{{ errorMessage.message }}</p>
+</div>
+
+<div class="text-container">
+    <p>Nitrous oxide is a gas that is produced by the combustion of fossil fuel and solid waste, nitrogen-base fertilizers, sewage treatment plants, natural processes, and other agricultural and industrial activities.</p>
+
+    <p class="highlight">It is the third largest heat-trapping gas in the atmosphere and the biggest ozone-destroying compound emitted by human activities.</p>
+
+    <p>For more detailed information please visit <a href="https://global-warming.org/">Global Warming website</a></p>
+</div>
