@@ -1,1 +1,24 @@
+Per il progetto finale Front End Development ho creato una web app dove ho creato delle dashboard per visualizzare i dati sul riscaldamento globale.
 
+E un progetto multipagina con la Home dove ho scelto di mettere il titolo e una piccola descrizione con anche i vari modalita di navigazione per andare alle pagine dei grafici.
+Per andare nelle varie pagine dove ho messo i grafici e le descrizioni, ho scelto di creare dei card dove ho messo delle foto e una piccola descrizione,
+cliccando sulla card si viene portati nella pagina del specifico grafico.
+Ho scelto anche di mettere anche una barra con il titolo e un pulsante che apre il menu di navigazione.
+
+Nelle pagine dei grafici ho messo il grafico che ho creato tramite i dati ricevuti dalle seguenti API:
+
+Temperature - https://global-warming.org/api/temperature-api
+CO2 - https://global-warming.org/api/co2-api
+Metano - https://global-warming.org/api/methane-api
+NO2 - https://global-warming.org/api/nitrous-oxide-api
+Ghiaccio Polare - https://global-warming.org/api/arctic-api
+
+Sempre nelle pagine dei grafici ho messo sotto i grafici una descrizione.
+
+Ho inserito anche un footer con due link uno che porta al GitHub del progetto e un link del mio LinkedIn.
+
+Nel progetto ho organizzato nel seguente modo i fari file:
+
+Home: nella cartella home dove ho messo solo i file home, qui ho messo i card per andare nelle pagine dei grafici
+
+Footer e Sidembarmenu
