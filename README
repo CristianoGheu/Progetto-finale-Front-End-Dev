@@ -17,7 +17,18 @@ Sempre nelle pagine dei grafici ho messo sotto i grafici una descrizione.
 
 Ho inserito anche un footer con due link uno che porta al GitHub del progetto e un link del mio LinkedIn.
 
+Per rendere ben leggibile e modificabile in futuro, ho scelto di suddividere il progetto in diverse cartelle in base al tipo di componente:
+Home = per il component home, dove ho messo il titolo, la descrizione e le card che portano alle pagine dei grafici.
+Components = per i component footer e sidebarmenu, dove ho creato il footer con due link e il menu di navigazione delle varie pagine.
+Pages = qui ho messo tutte le pagine dei grafici.
+Environments = qui ho messo i link delle API, chiamandole poi nel file service
+Styles = qui ho inserito lo styling delle pagine con i grafici, ho fatto ciò per rendere più pulito il tutto e rendere più semplice in futuro la possibili di apportare modifiche.
+Service= qui ho inserito le chiamate API per i vari grafici
+
+Il component app l'ho usato come base per tenere quei componenti che fanno ad essere in tutte le pagine, come il pulsante animato che apre il menu sidebar per la navigazione, footer e sidebarmenu.
+
 Il progetto l’ho sviluppato con il framework Angular, ho usato Angular Material per modellare i vari componenti.
+Tramite css ho reso il progetto anche ottimizzato per la la visualizzazione su mobile
 
 Per provare e testare l’applicazione potete scaricare il zip ed estrarlo, 
 una volta aperto il progetto si deve navigare nella directory e installare le dipendenze con npm install.
