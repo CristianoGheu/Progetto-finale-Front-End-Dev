@@ -3,7 +3,7 @@ Per il progetto finale Front End Development ho creato una web app dove ho creat
 E un progetto multipagina con la Home dove ho scelto di mettere il titolo e una piccola descrizione con anche le varie modalita di navigazione per essere indirizzati alle pagine dei grafici.
 Per andare nelle varie pagine dove ho messo i grafici e le descrizioni, ho scelto di creare dei card dove ho messo delle foto e una piccola descrizione,
 cliccando sulla card si viene portati nella pagina del specifico grafico.
-Ho scelto anche di mettere anche una barra con il titolo e un pulsante che apre il menu di navigazione.
+Ho scelto anche di mettere una barra con il titolo e un pulsante che apre il menu di navigazione.
 
 Nelle pagine dei grafici ho messo il grafico che ho creato tramite i dati ricevuti dalle seguenti API:
 
