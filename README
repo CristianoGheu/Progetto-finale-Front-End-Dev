@@ -30,6 +30,8 @@ Il component app l'ho usato come base per tenere quei componenti che fanno ad es
 Il progetto l’ho sviluppato con il framework Angular, ho usato Angular Material per modellare i vari componenti.
 Tramite css ho reso il progetto anche ottimizzato per la la visualizzazione su mobile
 
+Link applicazione = https://progetto-finale-front-end-dev.web.app/
+
 Per provare e testare l’applicazione potete scaricare il zip ed estrarlo, 
 una volta aperto il progetto si deve navigare nella directory e installare le dipendenze con npm install.
 Una volta installato le dipendenze si può avviare il server con il comando ng serve.
